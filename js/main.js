@@ -51,19 +51,19 @@
 
 // Problem 220
 
-let n = 155;
-let a = 2;
-console.log(binary(n, a));
+// let n = 155;
+// let a = 2;
+// console.log(binary(n, a));
 
-function binary(n, a) {
-    if (a == 2) {
-        return n.toString((2));
-    } else if (a == 8) {
-        return n.toString((8));
-    } else if (a == 16) {
-        return n.toString((16));
-    }
-}
+// function binary(n, a) {
+//     if (a == 2) {
+//         return n.toString((2));
+//     } else if (a == 8) {
+//         return n.toString((8));
+//     } else if (a == 16) {
+//         return n.toString((16));
+//     }
+// }
 
 // Problem 221
 
@@ -104,3 +104,34 @@ function binary(n, a) {
 // }
 
 // console.log(binnary(n, a))
+
+
+
+
+
+// function validatePalin(str) {
+
+//     const len = string.length;
+
+//     for (let i = 0; i < len / 2; i++) {
+
+//         if (string[i] !== string[len - 1 - i]) {
+//             alert('It is not a palindrome');
+//         }
+//     }
+//     alert('It is a palindrome');
+// }
+
+// const string = prompt('Enter a string or number: ');
+
+// const value = validatePalin(string);
+
+// console.log(value);
+
+
+// let text = "98c 900a 1z23 24x6";
+// let newArr = [];
+// text.split(" ").forEach(element => {
+//     newArr.push(element.split("").sort().reverse().join(""));
+// });
+// console.log(newArr);
