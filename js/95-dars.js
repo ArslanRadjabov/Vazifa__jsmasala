@@ -41,32 +41,6 @@
 // console.log(getCharacterCount(...n));
 
 
-// Problem 209
-
-
-// let text = "Bu manfiy son - 22 -";
-// let num = "";
-
-// function showIt(...text){
-//   let hyphen = false;
-//   text.forEach((item) => {
-//     if(Number.isInteger(Number(item))){
-//       Number(num += item);
-//     }
-//     if(item.includes("-")){
-//       hyphen = true;
-//     }
-//   })
-//   if(num > 0 && hyphen == true){
-//     return Number(-num);
-//   } else if(num > 0){
-//     return Number(num);
-//   } else{
-//     return null;
-//   }
-// }
-
-// console.log(showIt(...text));
 
 
 // Problem 215
